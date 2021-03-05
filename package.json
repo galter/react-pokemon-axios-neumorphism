@@ -6,7 +6,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.27",
     "@fortawesome/free-solid-svg-icons": "^5.12.1",
     "@fortawesome/react-fontawesome": "^0.1.8",
-    "axios": "^0.19.2",
+    "axios": ">=0.21.1",
     "bootstrap": "^4.4.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0.0",
@@ -41,5 +41,14 @@
   "keywords": [],
   "author": "Cicero Oliveira",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "resolutions": {
+    "react-scripts/**/serialize-javascript": ">=3.1.0",
+    "react-scripts/**/node-forge": ">=0.10.0",
+    "react-scripts/**/elliptic": ">=6.5.3",
+    "react-scripts/**/http-proxy": ">=1.18.1",
+    "react-scripts/**/object-path": ">=0.11.5",
+    "react-google-maps/**/**/**/node-fetch": ">=2.6.1 <3.0.0-beta.1|| >= 3.0.0-beta.9",
+    "react-scripts/**/immer": ">=8.0.1"
+  }
 }
